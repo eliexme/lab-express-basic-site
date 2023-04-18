@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+img{
+    max-width: 100vw;
+}
+
+.cover-pic{
+    max-height: 40rem;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+.buttons a{
+    background-color: black;
+    color: white;
+    margin: 0.5rem;
+    padding: 1rem;
+    text-decoration: none;
+    box-shadow: 10px 5px 5px grey;
+}
+
+h3{
+    margin: 0;
+}
+
+.bio{
+    margin: 0 5vw;
+}
+
+.bio-subtitle{
+    margin-bottom: 0.2rem;
+    margin-top: 1rem;
+}
+
+.bio p{
+    margin-top: 0.2rem;
+}
+
+.works{
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.works img{
+    width: 15rem;
+}
+
+.eachWork{
+    margin: 2rem;
+}
+
+h2{
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
